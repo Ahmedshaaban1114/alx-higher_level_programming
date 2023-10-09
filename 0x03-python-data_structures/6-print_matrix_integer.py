@@ -6,4 +6,4 @@ def print_matrix_integer(matrix=[[]]):
         if len(x) == 0:
             print()
         for a in range(len(x)):
-            print("{:d}".format(x[a]),end="\n" if a is len(x) - 1 else" "
+            print("{:d}".format(x[a]), end="\n" if a is len(x) - 1 else" ")
