@@ -3,5 +3,8 @@
 
 
 class square:
+    """Defination"""
+
     def __int__(self, size):
+
         self.__size = size
